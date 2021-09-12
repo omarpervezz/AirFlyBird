@@ -105,6 +105,9 @@ anonymous css
 #anonymous_area .left_anonymous ul li a.mr-4{
    color: #000;
 }
+#anonymous_area .left_anonymous ul li a{
+    text-decoration: none;
+}
 #anonymous_area .left_anonymous ul li .fa-chevron-right{
     font-size: 1.4rem;
     color: #000;
@@ -216,6 +219,8 @@ users css
 #user_area .wrap_users .users__  .left_info a{
     font-size: 1rem;
     text-decoration: none;
+    color: #0c65ac;
+    font-weight: 500;
 }
 #user_area .wrap_users .users__  .left_info img{
     width:1.3rem;
@@ -237,7 +242,7 @@ users css
     width: 2.8rem;
 }
 #user_area .wrap_users .users__ .qr-code-part span{
-    font-size: 1rem;
+    font-size: .6rem;
     display: inline-block;
     line-height: 1rem;
     margin-top: 1rem;
@@ -252,6 +257,15 @@ users css
     margin-top: 3.5rem;
     font-size: 1.3rem;
     font-weight: 600;
+}
+#user_area .wrap_users .img-area .dott{
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #1f8b1f;
+    position: absolute;
+    border-radius: 50%;
+    left: 3.4rem;
+    top: 2.2rem;
 }
 @media (max-width:576px){
     #user_area .wrap_users .users__{
