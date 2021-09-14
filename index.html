@@ -18,6 +18,7 @@
       <link rel="stylesheet" type="text/css" href="./resources/css/responsive.css">
    </head>
    <body>
+    
       <!--------------------------START HEADER AREA-------------------------->
        <header>
           <div class="container-fluid">
@@ -85,18 +86,66 @@
           <!----------------------END Anonymous Area--------------------------->
           <!----------------------START User Area--------------------------->
           <section id="user_area">
-             <div class="chevron_">
-                <a href="#"><i class="fa fa-chevron-right"></i></a>
+             <div class="chevron_" id="chevron">
+                <a href="#"><i class="fa fa-chevron-right" id="panel_show"></i></a>
              </div>
+              <!----------------------left panel--------------------------------->
+              <section id="panel">
+               <div class="inner_panel shadow">
+                  <div class="header_panel">
+                     <div class="d-flex flex-row">
+                        <div class="pl-2 pr-2">
+                           <i class="home"><img src="./resources/img/mainhome.png" alt="home"></i>
+                        </div>
+                        <div>
+                           <h3 class="panel_header_text">大连协同天下电子商务科技有限公司</h3>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="list_home">
+                     <div class="d-flex flex-row">
+                        <div class="pr-3 my-4">
+                           <i class="first_noti"><img src="./resources/img/chat-group 2.png" alt=""></i>
+                        </div>
+                        <div>
+                           <a href="#">开发部</a>
+                        </div>
+                     </div>
+                     <div class="d-flex flex-row">
+                        <div class="pr-3 my-4">
+                           <i class="second_noti"><img src="./resources/img/chat-group 2.png" alt=""></i>
+                        </div>
+                        <div>
+                           <a href="#">开发部</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="inner_panel second_panel shadow">
+                  <div class="header_panel">
+                     <div class="d-flex flex row">
+                        <div class="pl-2 pr-2">
+                           <i class="home"><img src="./resources/img/mainhome.png" alt="home"></i>
+                        </div>
+                        <div>
+                           <h3 class="panel_header_text">开发部</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         </section>
+   <!----------------------end panel--------------------------------->
              <div class="container-fluid">
                 <!--all users-->
                <div class="wrap_users">
                   <div class="row">
-                     <div class="col-lg-4">
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 user_online_header">
                         <div class="users__ bg-white p-3 shadow">
                           <div class="row">
                            <div class="col-sm-4 img-area">
-                              <img src="./resources/img/user1.png" alt="user1" class="img-fluid users_img">
+                             <div class="combine_img">
+                                <img src="./resources/img/active.png" alt="active" class="active_" id="activeImg"><img src="./resources/img/user1.png" alt="user1" class="img-fluid users_img">
+                              </div>
                            </div>
                            <div class="col-sm-8">
                               <div class="users_text">
@@ -134,11 +183,11 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-4">
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="users__ bg-white p-3 shadow">
                           <div class="row">
                            <div class="col-sm-4 img-area">
-                              <img src="./resources/img/user2.png" alt="user1" class="img-fluid users_img">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user2.png" alt="user2" class="img-fluid users_img"></div>
                            </div>
                            <div class="col-sm-8">
                               <div class="users_text">
@@ -176,11 +225,11 @@
                          </div>
                         </div>
                      </div>
-                     <div class="col-lg-4">
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="users__ bg-white p-3 shadow">
                           <div class="row">
                            <div class="col-sm-4 img-area">
-                              <img src="./resources/img/user3.png" alt="user1" class="img-fluid users_img">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user3.png" alt="user3" class="img-fluid users_img"></div>
                            </div>
                            <div class="col-sm-8">
                               <div class="users_text">
@@ -218,13 +267,11 @@
                          </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-lg-4">
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="users__ bg-white p-3 shadow">
                           <div class="row">
                            <div class="col-sm-4 img-area">
-                              <img src="./resources/img/user4.png" alt="user1" class="img-fluid users_img">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user4.png" alt="user4" class="img-fluid users_img"></div>
                            </div>
                            <div class="col-sm-8">
                               <div class="users_text">
@@ -262,11 +309,11 @@
                          </div>
                         </div>
                      </div>
-                     <div class="col-lg-4">
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="users__ bg-white p-3 shadow">
                           <div class="row">
                            <div class="col-sm-4 img-area">
-                              <img src="./resources/img/user5.png" alt="user1" class="img-fluid users_img">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user5.png" alt="user5" class="img-fluid users_img"></div>
                            </div>
                            <div class="col-sm-8">
                               <div class="users_text">
@@ -304,11 +351,11 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-4">
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="users__ bg-white p-3 shadow">
                           <div class="row">
                            <div class="col-sm-4 img-area">
-                              <img src="./resources/img/user6.png" alt="user1" class="img-fluid users_img">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user6.png" alt="user6" class="img-fluid users_img"></div>
                            </div>
                            <div class="col-sm-8">
                               <div class="users_text">
@@ -346,13 +393,11 @@
                          </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-lg-4">
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="users__ bg-white p-3 shadow">
                           <div class="row">
                            <div class="col-sm-4 img-area">
-                              <img src="./resources/img/user7.png" alt="user1" class="img-fluid users_img">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user7.png" alt="user7" class="img-fluid users_img"></div>
                            </div>
                            <div class="col-sm-8">
                               <div class="users_text">
@@ -390,11 +435,11 @@
                          </div>
                         </div>
                      </div>
-                     <div class="col-lg-4">
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="users__ bg-white p-3 shadow">
                           <div class="row">
                            <div class="col-sm-4 img-area">
-                              <img src="./resources/img/user8.png" alt="user1" class="img-fluid users_img">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user8.png" alt="user8" class="img-fluid users_img"></div>
                            </div>
                            <div class="col-sm-8">
                               <div class="users_text">
@@ -432,11 +477,11 @@
                          </div>
                         </div>
                      </div>
-                     <div class="col-lg-4">
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="users__ bg-white p-3 shadow">
                           <div class="row">
                            <div class="col-sm-4 img-area">
-                              <img src="./resources/img/user9.png" alt="user1" class="img-fluid users_img">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user9.png" alt="user9" class="img-fluid users_img"></div>
                            </div>
                            <div class="col-sm-8">
                               <div class="users_text">
